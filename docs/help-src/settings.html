@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="gb2312"><title>应用设置与快捷键</title><link rel="stylesheet" href="styles/help.css"></head>
+<body>
+<div class="topbar"><strong>CopyTools 使用帮助</strong><span>应用设置</span></div>
+<div class="nav"><a href="index.html">首页</a><a href="automation.html">自动化</a><a href="troubleshooting.html">故障排查</a></div>
+<h1>应用设置与快捷键</h1>
+<div class="screenshot"><img src="images/06-settings.png" alt="应用设置界面"><p class="caption">图 6：通知、托盘、日志、后台性能、主题与语言等本机设置</p></div>
+<h2>常用设置</h2>
+<table><tr><th>设置</th><th>说明</th></tr><tr><td>桌面通知</td><td>计划任务或后台任务结束时显示系统通知。</td></tr><tr><td>最小化到托盘</td><td>最小化或关闭主窗口时让调度器继续运行；从托盘菜单选择“退出”才完全结束。</td></tr><tr><td>登录 Windows 后启动</td><td>为当前用户注册自动启动，适合依赖计划和实时触发的电脑。</td></tr><tr><td>日志保留天数</td><td>控制本机运行日志保留时长。运行历史数据由程序的数据管理策略独立维护。</td></tr><tr><td>后台并发与限速</td><td>限制计划、实时触发任务对前台工作的磁盘和网络影响。限速为 0 表示不限制。</td></tr><tr><td>主题</td><td>在浅色和深色主题之间切换；保存后会立即应用或在下次启动保持。</td></tr><tr><td>界面语言</td><td>当前完整语言为简体中文；其他语言缺少的资源会回退中文。</td></tr></table>
+<h2>快捷键</h2>
+<table><tr><th>快捷键</th><th>功能</th></tr><tr><td><kbd>F1</kbd></td><td>打开本地 CopyTools CHM 使用帮助。</td></tr><tr><td><kbd>Ctrl+P</kbd></td><td>在复制任务页生成操作预览。</td></tr><tr><td><kbd>Ctrl+Enter</kbd></td><td>执行当前已确认的预览。</td></tr><tr><td><kbd>Ctrl+S</kbd></td><td>保存当前任务配置。</td></tr></table>
+<h2>数据位置与隐私</h2><p>设置、运行数据库、隔离区元数据、插件和凭据索引位于当前 Windows 用户的本地应用数据目录。凭据正文使用 Windows 安全机制保护；普通日志不应包含密码、访问令牌和用户文件内容。</p>
+<div class="tip">更换电脑时可以导出任务 JSON，但安全凭据不会随任务导出。请在新电脑重新建立存储和通知连接。</div>
+<div class="footer"><a href="index.html">返回帮助首页</a> · 相关章节：<a href="troubleshooting.html">故障排查</a></div>
+</body></html>
+

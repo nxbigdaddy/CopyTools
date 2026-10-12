@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>CopyTools</AssemblyName>
+    <RootNamespace>CopyTools.Desktop</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CopyTools.Application\CopyTools.Application.csproj" />
+    <ProjectReference Include="..\CopyTools.Domain\CopyTools.Domain.csproj" />
+    <ProjectReference Include="..\CopyTools.Engine\CopyTools.Engine.csproj" />
+    <ProjectReference Include="..\CopyTools.Infrastructure\CopyTools.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="help\CopyTools.chm" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\CopyTools.Domain\CopyTools.Domain.csproj" />
+    <ProjectReference Include="..\CopyTools.Engine\CopyTools.Engine.csproj" />
+  </ItemGroup>
+</Project>

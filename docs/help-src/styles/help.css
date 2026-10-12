@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 24px 30px 40px;
+  color: #172033;
+  background: #ffffff;
+  font-family: "Microsoft YaHei UI", "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.75;
+}
+a { color: #1d5ed5; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { margin: 0 0 8px; color: #10213a; font-size: 28px; }
+h2 { margin: 30px 0 10px; padding-bottom: 7px; border-bottom: 1px solid #d9e2ef; color: #18365f; font-size: 21px; }
+h3 { margin: 22px 0 6px; color: #234c80; font-size: 16px; }
+p { margin: 7px 0 12px; }
+ul, ol { margin: 7px 0 14px 24px; padding: 0; }
+li { margin: 4px 0; }
+.topbar { margin: -24px -30px 24px; padding: 13px 30px; color: #dbe8fa; background: #10213a; }
+.topbar strong { color: #ffffff; font-size: 17px; }
+.topbar span { margin-left: 12px; font-size: 12px; }
+.nav { margin: 0 0 22px; padding: 9px 12px; border: 1px solid #d9e2ef; background: #f5f8fc; }
+.nav a { margin-right: 15px; white-space: nowrap; }
+.lead { color: #536782; font-size: 16px; }
+.hero { margin: 18px 0; padding: 18px 20px; border-left: 5px solid #2563eb; background: #edf4ff; }
+.tip { margin: 16px 0; padding: 12px 15px; border: 1px solid #bcd2f7; background: #f2f7ff; }
+.warning { margin: 16px 0; padding: 12px 15px; border: 1px solid #f0c781; background: #fff8e9; }
+.danger { margin: 16px 0; padding: 12px 15px; border: 1px solid #e7aaa5; background: #fff2f0; }
+.step { margin: 12px 0; padding: 13px 16px; border: 1px solid #d9e2ef; background: #ffffff; }
+.step strong { color: #1d5ed5; }
+.screenshot { margin: 18px 0 24px; padding: 8px; border: 1px solid #cdd8e7; background: #f5f8fc; }
+.screenshot img { display: block; width: 100%; height: auto; border: 0; }
+.caption { margin: 7px 5px 2px; color: #5e718a; font-size: 12px; text-align: center; }
+table { width: 100%; margin: 12px 0 20px; border-collapse: collapse; }
+th, td { padding: 9px 10px; border: 1px solid #cfd9e7; text-align: left; vertical-align: top; }
+th { color: #264d7e; background: #edf3fa; }
+code, kbd { padding: 1px 5px; border: 1px solid #d4ddea; background: #f4f7fa; font-family: Consolas, monospace; }
+.footer { margin-top: 36px; padding-top: 12px; border-top: 1px solid #d9e2ef; color: #73839a; font-size: 12px; }
+

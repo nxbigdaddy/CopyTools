@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="gb2312"><title>故障排查</title><link rel="stylesheet" href="styles/help.css"></head>
+<body>
+<div class="topbar"><strong>CopyTools 使用帮助</strong><span>故障排查</span></div>
+<div class="nav"><a href="index.html">首页</a><a href="quick-start.html">快速上手</a><a href="storage.html">存储连接</a><a href="safety.html">安全机制</a></div>
+<h1>故障排查</h1>
+<h2>无法生成预览</h2><ul><li>确认至少存在一个有效源路径，且目标目录已填写。</li><li>确认源和目标不是同一目录，目标也不在源目录内部。</li><li>检查路径是否存在、磁盘是否已连接、网络共享是否可访问。</li><li>查看过滤规则是否排除了全部文件。</li></ul>
+<h2>预览正常但无法执行</h2><ul><li>查看底部状态栏和弹出的安全提示，确认是否超过删除阈值。</li><li>确认目标目录可写、磁盘空间充足、文件未被其他程序独占。</li><li>如果扫描后源文件发生变化，请重新生成预览。</li><li>进入“运行历史”查看失败文件、尝试次数和具体错误。</li></ul>
+<h2>网络或云连接失败</h2><ol><li>在“存储连接与传输”选择连接并单击“测试连接”。</li><li>核对 URL、端口、根路径、账号权限和令牌有效期。</li><li>如使用代理，在应用设置中确认系统代理或自定义代理。</li><li>核对 Windows 时间；时间误差会导致部分签名式云 API 拒绝请求。</li><li>公司网络可能进行 TLS 检查，需要管理员提供可信证书或允许对应服务。</li></ol>
+<h2>计划没有运行</h2><ul><li>计划和它引用的任务都必须存在，计划状态必须为启用。</li><li>启用“错过计划后立即补跑”，可处理关机或休眠期间错过的时间。</li><li>若只使用桌面调度，CopyTools 必须仍在托盘运行；需要无人登录运行时安装并检查后台服务。</li><li>查看运行历史、桌面通知和服务日志级别。</li></ul>
+<h2>窗口关闭后找不到</h2><p>如果启用了“最小化或关闭窗口时继续在系统托盘运行”，窗口只是进入托盘。双击 CopyTools 托盘图标，或右键选择“显示 CopyTools”。要完全退出请选择托盘菜单“退出”。</p>
+<h2>F1 无法打开帮助</h2><p>安装目录中应存在 <code>help\CopyTools.chm</code>。如果文件缺失，请重新解压完整便携包或重新安装。Windows 从网络下载的 CHM 可能带安全阻止标记，可在文件属性中选择“解除锁定”。</p>
+<h2>报告问题前准备</h2><ul><li>CopyTools 版本、Windows 版本和任务模式。</li><li>可去除隐私信息后的源/目标类型和目录结构。</li><li>运行历史中的错误文字与发生时间。</li><li>问题是否能用少量测试文件复现。</li></ul>
+<div class="warning">提交日志前请检查是否含有真实目录名、远程地址或业务文件名。不要提交密码、访问令牌、私钥或加密归档密码。</div>
+<div class="footer"><a href="index.html">返回帮助首页</a></div>
+</body></html>
+

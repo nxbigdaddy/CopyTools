@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CopyTools.Application\CopyTools.Application.csproj" />
+    <ProjectReference Include="..\CopyTools.Domain\CopyTools.Domain.csproj" />
+    <ProjectReference Include="..\CopyTools.Engine\CopyTools.Engine.csproj" />
+  </ItemGroup>
+</Project>

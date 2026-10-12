@@ -1,0 +1,32 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=CopyTools.chm
+Contents file=CopyTools.hhc
+Index file=CopyTools.hhk
+Default topic=index.html
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x804 Chinese (PRC)
+Charset=936
+Title=CopyTools  π”√∞Ô÷˙
+Binary TOC=No
+Binary Index=No
+
+[FILES]
+index.html
+quick-start.html
+copy-sync.html
+backup.html
+automation.html
+storage.html
+safety.html
+settings.html
+troubleshooting.html
+styles\help.css
+images\01-copy-task.png
+images\02-saved-tasks.png
+images\03-schedules.png
+images\04-backup-restore.png
+images\05-storage.png
+images\06-settings.png
+

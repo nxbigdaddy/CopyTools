@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>copytools</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CopyTools.Application\CopyTools.Application.csproj" />
+    <ProjectReference Include="..\CopyTools.Domain\CopyTools.Domain.csproj" />
+    <ProjectReference Include="..\CopyTools.Engine\CopyTools.Engine.csproj" />
+    <ProjectReference Include="..\CopyTools.Infrastructure\CopyTools.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN"><HTML><HEAD><meta charset="gb2312"></HEAD><BODY>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="CopyTools 使用帮助"><param name="Local" value="index.html"></OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="五分钟快速上手"><param name="Local" value="quick-start.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="复制与同步模式"><param name="Local" value="copy-sync.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="版本备份与恢复"><param name="Local" value="backup.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="计划任务与实时触发"><param name="Local" value="automation.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="存储连接与跨存储传输"><param name="Local" value="storage.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="安全、隔离与任务恢复"><param name="Local" value="safety.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="应用设置与快捷键"><param name="Local" value="settings.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="故障排查"><param name="Local" value="troubleshooting.html"></OBJECT></LI>
+</UL></LI></UL></BODY></HTML>
+
